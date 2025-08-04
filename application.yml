@@ -3,10 +3,10 @@ global:
 logging:
   level:
     root: INFO
-  erureka:
-    client:
-      service-url:
-        defaultZone: http://localhost:8761/eureka/
+erureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 management:
   endpoints:
     web:
