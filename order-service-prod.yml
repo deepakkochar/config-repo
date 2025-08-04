@@ -2,10 +2,10 @@ global:
   message: Welcome to order services prod Environemnt
 server:
   port:8085
-message: Hello from Dev
+message: Hello from Prod
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/order_master
+    url: jdbc:mysql://localhost:3306/order_prod
     username: root
     password:
   jpa:
